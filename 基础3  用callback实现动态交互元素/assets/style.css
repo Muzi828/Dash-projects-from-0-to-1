@@ -1,0 +1,14 @@
+body, ul{
+    background-color: pink;
+}
+
+li{
+    color: white;
+    font-size: 8rem;
+    font-weight: bold;
+    transition:all 0.2s ease-in-out;  
+}
+
+li:hover{
+    transform: scale(1.1);
+}
