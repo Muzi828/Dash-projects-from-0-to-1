@@ -1,0 +1,79 @@
+html,body{ 
+    background-color: #232c37 !important;
+    color:#496c8d !important;
+    overflow-y:scroll;} 
+
+.sider{
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+
+#dpd * {
+    background-color: #2a313d !important;
+    color: #7f9ab4 !important;
+    font-size: 10px !important;
+}
+
+
+.Select-control{
+    border: 1px solid #323844 !important;
+}
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px !important;
+    display: block !important;
+  }
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #232c37 !important;
+    border-radius: 10px !important;
+    display: block !important;
+    }
+    
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #363535 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: white !important;
+}
+
+
+.Select-menu-outer{
+    overflow: hidden !important;
+    border-color: #36425e !important;
+}
+
+
+.rc-slider * {
+    color: #aed0ef !important;
+}
+
+
+.dash-header{
+    background-color: rgb(52, 52, 63) !important;
+}
+
+td,tr
+{
+    background-color: transparent !important;
+    border-color: #263046 !important;
+    text-align: center !important;
+}
+
+th {
+    background-color: #364458 !important;
+    border-color: #36425e !important;
+    text-align: center !important;
+}
+
+
+.modebar {
+    display:none !important;
+}
