@@ -1,0 +1,59 @@
+html,body{ 
+    background:#0d0247;
+    color: white;
+    overflow-y:scroll;} 
+
+.div_container{
+    text-align: center;
+    margin:  20px;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.card_container{
+    border-radius: 5px;
+    background-color: #182757;
+    margin: 16px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 2px #1e294e;
+}   
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px !important;
+    display: block !important;
+  }
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #232c37 !important;
+    border-radius: 10px !important;
+    display: block !important;
+    }
+    
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #363535 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: white !important;
+}
+
+#dpd * {
+    background-color: #182757 !important;
+    color: #7f9ab4 !important;
+    font-size: 10px !important;
+}
+
+.Select-control{
+    border: 3px solid #323844 !important;
+}
+
+.Select-menu-outer{
+    overflow: hidden !important;
+    border-color: #36425e !important;
+}
