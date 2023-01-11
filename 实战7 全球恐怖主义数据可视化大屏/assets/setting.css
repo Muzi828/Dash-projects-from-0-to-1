@@ -1,0 +1,71 @@
+html,body{
+    background-color: #2e2e2f;
+    margin: 3%;
+    color:white;
+    text-align: center;
+}
+
+.card_container {
+    border-radius: 5px;
+    background-color: #070707;
+    margin: 16px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px #292929;
+  }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;
+    display: block !important;
+  }
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #232c37 !important;
+    border-radius: 10px !important;
+    display: block !important;
+    }
+    
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #363535 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: white !important;
+}
+
+#Region *,#Country * {
+    background-color: #191a1a !important;
+    color: #f7f8f9 !important;
+    font-size: 18px !important;
+    text-align: center;
+}
+
+.Select-control{
+    border: 3px solid #323844 !important;
+}
+
+.Select-menu-outer{
+    overflow: hidden !important;
+    border-color: #373838 !important;
+}
+
+.rc-slider-track{
+    background-color: rgb(234, 13, 112) !important;
+}
+
+.rc-slider-handle{
+    border-color: rgb(234, 13, 112) !important;
+}
+
+
+.filter_item{
+    padding-bottom: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
