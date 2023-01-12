@@ -1,0 +1,56 @@
+html,body{
+    background-color: #192444;
+    margin: 2%;
+    color: #fbfbfc;
+    text-align: center;
+}
+
+.card_container {
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 16px;
+    padding: 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px #1f2c56;
+  }
+
+.year_sale{
+    color: #0643fa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px !important;
+    display: block !important;
+  }
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #222b4a !important;
+    border-radius: 10px !important;
+    display: block !important;
+    }
+    
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:#1a2034 !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #1a2034 !important;
+}
+
+.previous-next-container *{
+    background: #1f2c56 !important;
+    color: white !important;
+}
+
+.current-page{
+    background: #4c5575 !important;
+    color: white !important;
+}
